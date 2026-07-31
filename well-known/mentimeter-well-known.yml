@@ -1,0 +1,10 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://www.mentimeter.com/.well-known/*
+host: https://www.mentimeter.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: mentimeter-security.txt
+- path: /.well-known/openid-configuration
+  status: 404

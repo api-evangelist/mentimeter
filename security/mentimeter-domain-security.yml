@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: mentimeter.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 15 17:45:01 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: mentimeter.com
+  dnssec: false
+  caa:
+  - 0 issue "amazonaws.com"
+  - 0 issue "amazontrust.com"
+  - 0 issue "awstrust.com"
+  - 0 issue "certainly.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

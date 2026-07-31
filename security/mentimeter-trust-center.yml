@@ -1,0 +1,12 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.mentimeter.com/trust
+url: https://www.mentimeter.com/trust
+certifications:
+- GDPR
+evidence:
+- source: https://www.mentimeter.com/trust
+  keywords:
+  - trust center
+  - gdpr
